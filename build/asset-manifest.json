@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1f78cd3a.chunk.js",
+    "main.js.map": "/static/js/main.1f78cd3a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7e2fc82f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7e2fc82f.js.map",
+    "static/js/2.b22b813e.chunk.js": "/static/js/2.b22b813e.chunk.js",
+    "static/js/2.b22b813e.chunk.js.map": "/static/js/2.b22b813e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.da7fe6d125e6cd9c2035e1e567efd9e0.js": "/precache-manifest.da7fe6d125e6cd9c2035e1e567efd9e0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.b22b813e.chunk.js.LICENSE": "/static/js/2.b22b813e.chunk.js.LICENSE",
+    "static/media/Museo.otf": "/static/media/Museo.5171f052.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e2fc82f.js",
+    "static/js/2.b22b813e.chunk.js",
+    "static/js/main.1f78cd3a.chunk.js"
+  ]
+}
