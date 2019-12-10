@@ -1,23 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const test = {
-  id: 0,
-  title: 'Акция 1 + 1 = 3!',
-  description: `Каждое воскресенье в этом декабре во всех наших ресторанах 
-    при заказе двух блюд дороже 300р. каждое третье блюдо - в подарок. 
-    Каждое воскресенье в этом декабре во всех наших ресторанах при заказе 
-    двух блюд дороже 300р. каждое третье блюдо - в подарок. Каждое воскресенье 
-    в этом декабре во всех наших ресторанах при заказе двух блюд дороже 300р. каждое 
-    третье блюдо - в подарок. Каждое воскресенье в этом декабре во всех наших ресторанах 
-    при заказе двух блюд дороже 300р. каждое третье блюдо - в подарок.`,
-  formated_date_range: '01 Дек-31 Дек',
-  image_url: 'https://vkusnatinka.ru/wp-content/uploads/2017/11/ciz-biz-bonfile.jpg'
-}
-
-
 export default function DiscountPage({ location, history }) {
-  const { id, title, description, formated_date_range, image_url } = test
+  const { id, title, description, formated_date_range, image_url } = location.state
   const backBtnClick = () => {
     history.goBack()
   }
